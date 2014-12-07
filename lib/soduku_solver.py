@@ -12,6 +12,7 @@ def get_next_pos(x, y):
         else:
             return x, y
 
+
 class Soduku():
     def __init__(self, origin_table):
         self.origin_table = copy.deepcopy(origin_table)
